@@ -30,7 +30,7 @@ Example using `doc2vec` with `regression`:
 ```
 from sant.baselines import load_pipeline
 
-pipeline = load_pipeline("path/to/models/", vetctorizer="doc2vec", predictor="regression")
+pipeline = load_pipeline("path/to/models/", vectorizer="doc2vec", predictor="regression")
 
 docs = # List of documents, each document being a list of tokens.
 
