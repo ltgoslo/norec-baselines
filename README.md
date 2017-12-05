@@ -28,7 +28,7 @@ $ pip install .
 Example using `doc2vec` with `regression`:
 
 ```
-from sant.baselines import load_pipeline
+from norec_baselines import load_pipeline
 
 pipeline = load_pipeline("path/to/models/", vectorizer="doc2vec", predictor="regression")
 
